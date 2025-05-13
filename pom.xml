@@ -5,7 +5,7 @@
 
   <groupId>com.pascal.kafka.connect.rest.extension</groupId>
   <artifactId>kafka-connect-rest-extension</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.3</version>
 
   <name>kafka-connect-rest-extension</name>
 
