@@ -7,7 +7,7 @@ import com.pascal.kafka.connect.rest.extension.rest.RestResource;
 
 public class RestExtension implements ConnectRestExtension {
 
-  private String version;
+  private String version = "1.0.0";
 
   @Override
   public void register(ConnectRestExtensionContext restPluginContext) {
@@ -30,9 +30,6 @@ public class RestExtension implements ConnectRestExtension {
 
   @Override
   public String version() {
-    if (version == null) {
-      getClass().getPackage().getImplementationVersion();
-    }
     return version;
   }
 }
